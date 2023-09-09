@@ -1,0 +1,23 @@
+{
+    "name": "augmentedlogic/maven-central-api",
+    "description": "PHP client for the maven central REST API",
+    "homepage": "https://developer.augmentedlogic.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wolfgang Hauptfleisch",
+            "email": "dev@augmentedlogic.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "com\\augmentedlogic\\mavencentralapi\\": "src"
+        }
+    }
+}
+
+
